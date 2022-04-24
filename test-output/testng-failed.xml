@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automatic Register]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.register.Utilities.Reporter"/>
+  </listeners>
+  <test thread-count="5" name="RegisterTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.register.test.RegistrationTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="RegisterUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.register.test.RegistrationTest -->
+    </classes>
+  </test> <!-- RegisterTest(failed) -->
+</suite> <!-- Failed suite [Automatic Register] -->

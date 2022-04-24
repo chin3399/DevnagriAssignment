@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-24T07:48:50Z" name="Automatic Register" finished-at="2022-04-24T07:49:04Z" duration-ms="14110">
+    <groups>
+    </groups>
+    <test started-at="2022-04-24T07:48:50Z" name="RegisterTest" finished-at="2022-04-24T07:49:04Z" duration-ms="14110">
+      <class name="com.register.test.RegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.register.test.RegistrationTest@a1cdc6d]" started-at="2022-04-24T07:48:51Z" name="setup" finished-at="2022-04-24T07:48:57Z" duration-ms="6416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterUser()[pri:0, instance:com.register.test.RegistrationTest@a1cdc6d]" started-at="2022-04-24T07:48:57Z" name="RegisterUser" finished-at="2022-04-24T07:49:04Z" duration-ms="6727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.register.test.RegistrationTest@a1cdc6d]" started-at="2022-04-24T07:49:04Z" name="TearDown" finished-at="2022-04-24T07:49:04Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.register.test.RegistrationTest -->
+    </test> <!-- RegisterTest -->
+  </suite> <!-- Automatic Register -->
+</testng-results>
